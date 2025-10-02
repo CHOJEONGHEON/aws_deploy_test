@@ -1,0 +1,4 @@
+fastapi
+mangum
+# DynamoDB 쓸 계획이면 주석 해제
+# boto3
