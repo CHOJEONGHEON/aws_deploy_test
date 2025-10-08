@@ -32,5 +32,5 @@ Resources:
 
 Outputs:
   ApiUrl:
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.ap-northeast-2.amazonaws.com/Prod/"
     Description: "API Gateway endpoint URL for Prod stage"
