@@ -32,6 +32,7 @@ jobs:
 
       - name: SAM build
         run: sam build --use-container
+        working-directory: fastapi-sam-ddb 
 
       - name: Delete failed stack if exists
         run: |
@@ -59,3 +60,4 @@ jobs:
 
       - name: SAM deploy (non-interactive)
         run: sam deploy
+        working-directory: fastapi-sam-ddb 
